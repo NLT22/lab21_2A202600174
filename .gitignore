@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ── Lab 21 — local-only files ──────────────────────────────────────────
+# Notebook with outputs (source kept locally; root notebook.ipynb is stripped)
+notebooks/
+
+# LoRA adapter weights & checkpoints (uploaded to HF Hub instead)
+adapters/
+*.safetensors
+*.bin
+*.gguf
+checkpoint-*/
+
+# Model cache / Colab Drive output
+lab21_lora_t4/
+*.pt
+*.pth
+
+# Misc large files
+*.png
+*.jpg
+*.jpeg
