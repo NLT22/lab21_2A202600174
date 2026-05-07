@@ -218,7 +218,12 @@ __marimo__/
 .streamlit/secrets.toml
 
 # ── Lab 21 — local-only files ──────────────────────────────────────────
-# Notebook with outputs (source kept locally; root notebook.ipynb is stripped)
+# Course materials (kept locally, not part of submission)
+README.md
+Lab21_Rubric_and_Format.md
+LICENSE
+
+# Source notebook with outputs kept locally in notebooks/
 notebooks/
 
 # LoRA adapter weights & checkpoints (uploaded to HF Hub instead)
